@@ -1,0 +1,36 @@
+h2 {
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
+
+table {
+  border: 5px dashed;
+  background-color: rgb(83, 205, 214);
+}
+
+th {
+  color: aliceblue;
+}
+
+.start {
+  text-align: left;
+}
+
+#address {
+  width: 300px;
+  height: 100px;
+}
+
+label {
+  color: aliceblue;
+}
+
+.qualify {
+  display: block;
+}
+
+.courses {
+  display: block;
+}
+

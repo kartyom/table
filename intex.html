@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Student Registration Form Using Table in HTML</h2>
+    </header>
+    <main>
+      <table align="center">
+        <tbody>
+          <tr>
+            <th class="start">First Name</th>
+            <td>
+              <input
+                type="text"
+                name="fname"
+                id="fname"
+                placeholder="Ghanendra"
+                required
+              />
+            </td>
+            <th>(Max 50 Characters Allowed)</th>
+          </tr>
+          <tr>
+            <th class="start">Last Name</th>
+            <td>
+              <input
+                type="text"
+                name="lname"
+                id="lname"
+                placeholder="Yadav"
+                required
+              />
+            </td>
+            <th>(Max 50 Characters Allowed)</th>
+          </tr>
+          <tr>
+            <th class="start">Email ID</th>
+            <td>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="yghanendra@gmail.com"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <th class="start">Mobile Number</th>
+            <td>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="7842xxxxxxxxx"
+                required
+              />
+            </td>
+            <th>(10 Digits Allowed)</th>
+          </tr>
+          <tr>
+            <th class="start">Gender</th>
+            <td>
+              <input type="radio" name="gender" id="male" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="Female" value="Female" />
+              <label for="Female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <th class="start">Date of Birth(DOB)</th>
+            <td>
+              <select name="day" id="day">
+                <option value="day">Day</option>
+              </select>
+              <select name="week" id="week">
+                <option value="week">Week</option>
+              </select>
+              <select name="year" id="year">
+                <option value="year">Year</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th class="start">Address</th>
+            <td>
+              <input type="text" id="address" required />
+            </td>
+          </tr>
+          <tr>
+            <th class="start">City</th>
+            <td>
+              <input
+                type="text"
+                name="city"
+                id="city"
+                placeholder="Bangalore"
+                required
+              />
+            </td>
+            <th>(Max 50 Characters Allowed)</th>
+          </tr>
+          <tr>
+            <th class="start">Pin Code</th>
+            <td>
+              <input
+                type="text"
+                name="pin"
+                id="pin"
+                placeholder="567589"
+                required
+              />
+            </td>
+            <th>(Max 50 Characters Allowed)</th>
+          </tr>
+          <tr>
+            <th class="start">State</th>
+            <td>
+              <input
+                type="text"
+                name="state"
+                id="state"
+                placeholder="Kamataka"
+                required
+              />
+            </td>
+            <th>(Max 50 Characters Allowed)</th>
+          </tr>
+          <tr>
+            <th class="start">Country</th>
+            <td>
+              <input
+                type="text"
+                name="country"
+                id="country"
+                placeholder="India"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <th class="start">Hobbies</th>
+            <td>
+              <input type="checkbox" name="draw" id="draw" />
+              <label for="draw">Drawing</label>
+              <input type="checkbox" name="sing" id="sing" />
+              <label for="sing">Singing</label>
+              <input type="checkbox" name="dance" id="dance" />
+              <label for="dance">Dancing</label>
+              <input type="checkbox" name="sketch" id="sketch" />
+              <label for="sketch">Sketching</label>
+            </td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>
+              <input type="checkbox" name="draw" id="draw" />
+              <label for="draw">Drawing</label>
+              <input type="text" placeholder="Ex-Teaching" />
+            </td>
+            <th>(Max 50 Characters Allowed)</th>
+          </tr>
+          <tr>
+            <th class="start">Qualification</th>
+            <td class="qualify">
+              <input type="checkbox" name="phd" id="high-school" />
+              <label for="high-school">High School(10th)</label>
+            </td>
+            <td class="qualify">
+              <input type="checkbox" name="higher-school" id="higher-school" />
+              <label for="higher-school">Higher School(12th)</label>
+            </td>
+            <td class="qualify">
+              <input type="checkbox" name="graduation" id="graduation" />
+              <label for="graduation">Graduation(Bachelors)</label>
+            </td>
+            <td class="qualify">
+              <input type="checkbox" name="pgraduation" id="pgraduation" />
+              <label for="pgraduation">Post Graduation(Masters)</label>
+            </td>
+            <td class="qualify">
+              <input type="checkbox" name="phd" id="phd" />
+              <label for="phd">PHD</label>
+            </td>
+          </tr>
+          <tr>
+            <th class="start">Courses Applied For</th>
+            <td class="courses">
+              <input type="radio" name="course" id="course" value="course" />
+              <label for="course">BCA(Bachelor of Computer Applications)</label>
+            </td>
+            <td class="courses">
+              <input type="radio" name="course" id="course" value="course" />
+              <label for="course">B.Com(Bachelor of Commerse)</label>
+            </td>
+            <td class="courses">
+              <input type="radio" name="course" id="course" value="course" />
+              <label for="course">B.Sc(Bachelor of Scince)</label>
+            </td>
+            <td class="courses">
+              <input type="radio" name="course" id="course" value="course" />
+              <label for="course">BA(Bachelor of Arts)</label>
+            </td>
+            <td class="courses">
+              <input type="radio" name="course" id="course" value="course" />
+              <label for="course">MCA(Master of Computer Applications)</label>
+            </td>
+            <td class="courses">
+              <input type="radio" name="course" id="course" value="course" />
+              <label for="course">M.Com(Master of Commerce)</label>
+            </td>
+            <td class="courses">
+              <input type="radio" name="course" id="course" value="course" />
+              <label for="course">M.Sc(Master of Science)</label>
+            </td>
+            <td class="courses">
+              <input type="radio" name="course" id="course" value="course" />
+              <label for="course">MA(Master of Arts)</label>
+            </td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>
+              <input type="submit" name="submit" />
+              <input type="reset" name="reset">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
